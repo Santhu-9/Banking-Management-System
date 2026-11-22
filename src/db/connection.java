@@ -10,7 +10,7 @@ public class connection {
         try {
             String url = "jdbc:postgresql://localhost:5432/bank_db";
             String username = "postgres";
-            String password = "santhuDB123";
+            String password = "your_password";
 
             Connection connection = DriverManager.getConnection(
                     url, username, password
