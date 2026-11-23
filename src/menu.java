@@ -2,7 +2,6 @@ import db.connection;
 import model.*;
 import DAO.*;
 import util.PasswordUtil;
-import static java.lang.System.exit;
 import java.sql.Connection;
 import java.util.*;
 
@@ -255,7 +254,8 @@ public class menu {
 
                 case 4:
 
-                    exit(0);
+                    con.close();
+                    break;
 
                 default:
 
